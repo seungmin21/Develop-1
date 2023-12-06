@@ -11,3 +11,12 @@ for(let i = 0; i < studentList.length; i++) {
     console.log(studentList[i]);
   }
 }
+
+
+let number = [1, 2, 3, 4, 5]
+
+for (let i = 0; i < number.length; i++) {
+  if(number[i]) {
+    console.log("나는")
+  }
+}
