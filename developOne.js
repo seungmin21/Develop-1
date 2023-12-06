@@ -3,20 +3,21 @@
 
 let studentList = ["오승민", "승민", "오민"]
 
-for(let i = 0; i < studentList.length; i++) {
-  // 학생 목록에 i번째와 오승민이 일치할 때
-  if(studentList[i] === "오승민") {
-    console.log("나는" + studentList[i] + "이다!");
-  } else {
-    console.log(studentList[i]);
-  }
-}
+//for(let i = 0; i < studentList.length; i++) {
+//  // 학생 목록에 i번째와 오승민이 일치할 때
+//  if(studentList[i] === "오승민") {
+//    console.log("나는" + studentList[i] + "이다!");
+//  } else {
+//    console.log(studentList[i]);
+//  }
+//}
 
 
 let number = [1, 2, 3, 4, 5]
 
-for (let i = 0; i < number.length; i++) {
+// i는 number.length보다 작다. 그렇기 때문에 i의 값을 4로 설정하면 1, 2, 3은 나오지 않는다.
+for (let i = 4; i < number.length; i++) {
   if(number[i]) {
-    console.log("나는")
+    console.log(number[i])
   }
 }
